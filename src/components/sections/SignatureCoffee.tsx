@@ -123,7 +123,7 @@ export default function SignatureCoffee() {
 
           <Reveal>
 
-            <h2 className="mx-auto mt-10 max-w-5xl text-center font-serif text-[3.8rem] leading-[0.95] text-[#2C2A29] md:text-[5.5rem] xl:text-[7rem]">
+            <h2 className="mx-auto mt-15 max-w-5xl text-center font-serif text-[3.8rem] leading-[0.95] text-[#2C2A29] md:text-[5.5rem] xl:text-[7rem]">
 
               Coffee,
 
@@ -144,7 +144,7 @@ export default function SignatureCoffee() {
 
         <Reveal>
 
-          <p className="mx-auto mt-10 max-w-3xl text-center text-lg leading-9 text-[#5D564F]">
+          <p className="mx-auto mt-32 max-w-3xl text-center text-lg leading-9 text-[#5D564F]">
 
             Three extraordinary coffees.
             Sourced across continents.

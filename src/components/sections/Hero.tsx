@@ -24,7 +24,7 @@ export default function Hero() {
       </div>
 
       {/* Main Layout */}
-      <div className="relative mx-auto grid min-h-screen max-w-7xl grid-cols-1 items-center gap-16 px-6 lg:grid-cols-2">
+      <div className="relative mx-auto grid min-h-screen w-full max-w-7xl grid-cols-1 items-center gap-16 overflow-hidden px-6 lg:grid-cols-2">
         {/* LEFT */}
         <Reveal>
           <div className="relative z-10">
@@ -77,7 +77,7 @@ className="inline-flex items-center justify-center rounded-full bg-[#2C2A29] px-
 
             <TiltCard>
               <div className="relative">
-                <div className="relative h-[650px] w-[430px] overflow-hidden rounded-[48px] shadow-[0_60px_160px_rgba(0,0,0,0.25)]">
+              <div className="relative h-[520px] w-full max-w-[430px] sm:h-[600px] lg:h-[650px] overflow-hidden rounded-[48px] shadow-[0_60px_160px_rgba(0,0,0,0.25)]">
                   <Image
                     src="/images/hero-coffee.png"
                     alt="Maison Noir Signature Coffee"
