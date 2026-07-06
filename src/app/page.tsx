@@ -11,17 +11,19 @@ import Story from "@/components/sections/Story";
 
 export default function Home() {
   return (
-    <main className="bg-[#F7F3EE] text-[#2C2A29]">
-  <Navbar />
-  <Hero />
-  <Story />
-  <SignatureCoffee />
-  <Desserts />
-  <Interior />
-  <Reservation />
-  <Instagram />
-  <Location />
-  <Footer />
-</main>
+    <div className="w-full overflow-x-clip bg-[#F7F3EE]">
+      <main className="text-[#2C2A29]">
+        <Navbar />
+        <Hero />
+        <Story />
+        <SignatureCoffee />
+        <Desserts />
+        <Interior />
+        <Reservation />
+        <Instagram />
+        <Location />
+        <Footer />
+      </main>
+    </div>
   );
 }

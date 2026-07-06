@@ -35,25 +35,14 @@ export default function Parallax({
     {
       stiffness: 120,
       damping: 24,
-      mass: 0.4,
     }
-  );
-
-  const scale = useTransform(
-    scrollYProgress,
-    [0, 0.5, 1],
-    [0.97, 1, 0.97]
   );
 
   return (
     <motion.div
       ref={ref}
       className={className}
-      style={{
-        y,
-        scale,
-        willChange: "transform",
-      }}
+      style={{ y }}
     >
       {children}
     </motion.div>

@@ -64,19 +64,9 @@ export default function TiltCard({
         rotateX,
         rotateY,
         transformStyle: "preserve-3d",
-        willChange: "transform",
-      }}
-      transition={{
-        type: "spring",
       }}
     >
-      <motion.div
-        style={{
-          transform: "translateZ(40px)",
-        }}
-      >
-        {children}
-      </motion.div>
+      {children}
     </motion.div>
   );
 }

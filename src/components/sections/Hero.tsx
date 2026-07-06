@@ -66,66 +66,20 @@ className="inline-flex items-center justify-center rounded-full bg-[#2C2A29] px-
         </Reveal>
 
         {/* RIGHT */}
-        <Parallax offset={60}>
-          <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.9 }}
-            className="relative flex items-center justify-center"
-          >
-            <div className="absolute -inset-10 rounded-full bg-[#E7D6C4] opacity-60 blur-[120px]" />
+        
+        <div className="relative flex items-center justify-center">
+  <div className="relative h-[520px] w-full max-w-[430px] sm:h-[600px] lg:h-[650px] overflow-hidden rounded-[48px] shadow-[0_60px_160px_rgba(0,0,0,0.25)]">
+    <Image
+      src="/images/hero-coffee.png"
+      alt="Coffee"
+      fill
+      priority
+      className="object-cover"
+    />
+  </div>
+</div>
 
-            <TiltCard>
-              <div className="relative">
-              <div className="relative h-[520px] w-full max-w-[430px] sm:h-[600px] lg:h-[650px] overflow-hidden rounded-[48px] shadow-[0_60px_160px_rgba(0,0,0,0.25)]">
-                  <Image
-                    src="/images/hero-coffee.png"
-                    alt="Maison Noir Signature Coffee"
-                    fill
-                    priority
-                    sizes="(max-width:768px) 100vw, 430px"
-                    className="object-cover"
-                  />
-
-                  <motion.div
-                    whileHover={{ y: -12, scale: 1.02 }}
-                    transition={{
-                      type: "spring",
-                      stiffness: 220,
-                      damping: 18,
-                    }}
-                    className="absolute bottom-6 left-6 right-6 rounded-[24px] border border-white/40 bg-white/70 p-5 backdrop-blur-xl"
-                  >
-                    <p className="text-[10px] uppercase tracking-[0.35em] text-[#A67C52]">
-                      Signature Selection
-                    </p>
-
-                    <h3 className="mt-2 font-serif text-2xl text-[#2C2A29]">
-                      White Gold Velvet
-                    </h3>
-
-                    <div className="mt-4 space-y-2 text-sm text-[#5D564F]">
-                      <div className="flex justify-between">
-                        <span>Origin</span>
-                        <span>Ethiopia</span>
-                      </div>
-
-                      <div className="flex justify-between">
-                        <span>Roast</span>
-                        <span>Light</span>
-                      </div>
-
-                      <div className="flex justify-between">
-                        <span>Finish</span>
-                        <span>24K Gold</span>
-                      </div>
-                    </div>
-                  </motion.div>
-                </div>
-              </div>
-            </TiltCard>
-          </motion.div>
-        </Parallax>
+        
       </div>
 
       {/* Scroll */}
