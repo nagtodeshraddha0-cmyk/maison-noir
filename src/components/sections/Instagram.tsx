@@ -134,7 +134,7 @@ export default function Instagram() {
           style={{
             y: galleryY,
           }}
-          className="mt-32 grid auto-rows-[280px] grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-12"
+          className="mt-2 grid auto-rows-[280px] grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-12"
         >
 
           {posts.map((post, index) => (
@@ -252,7 +252,7 @@ export default function Instagram() {
 
 {/* Editorial Statement */}
 
-<div className="mt-40 grid items-center gap-20 lg:grid-cols-[1fr_.9fr]">
+<div className="mt-5 grid items-center gap-20 lg:grid-cols-[1fr_.9fr]">
 
 <Reveal>
 
