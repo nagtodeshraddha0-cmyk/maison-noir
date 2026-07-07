@@ -39,10 +39,44 @@ export const metadata: Metadata = {
   authors: [{ name: "AUREX Studio" }],
   creator: "AUREX Studio",
   publisher: "AUREX Studio",
-
+  authors: [{ name: "AUREX Studio" }],
+  creator: "AUREX Studio",
+  publisher: "AUREX Studio",
+  
+  themeColor: "#F7F3EE",
+  
   icons: {
     icon: "/icons/favicon.png",
     apple: "/icons/favicon.png",
+  },
+  icons: {
+    icon: "/icons/favicon.png",
+    apple: "/icons/favicon.png",
+  },
+  openGraph: {
+    title: "Maison Noir | Luxury Café Experience",
+    description:
+      "A premium café experience where exceptional coffee, timeless interiors, and refined hospitality come together.",
+    url: "https://maison-noir-phi.vercel.app",
+    siteName: "Maison Noir",
+    images: [
+      {
+        url: "/images/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Maison Noir",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  
+  twitter: {
+    card: "summary_large_image",
+    title: "Maison Noir | Luxury Café Experience",
+    description:
+      "A premium café experience where exceptional coffee, timeless interiors, and refined hospitality come together.",
+    images: ["/images/og-image.jpg"],
   },
 };
 
