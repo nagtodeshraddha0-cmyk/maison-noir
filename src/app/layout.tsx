@@ -16,13 +16,32 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Maison Noir | Luxury Café Experience",
+  metadataBase: new URL("https://maison-noir-phi.vercel.app"),
+
+  title: {
+    default: "Maison Noir | Luxury Café Experience",
+    template: "%s | Maison Noir",
+  },
+
   description:
-    "A premium café experience crafted with timeless design and exceptional coffee. Designed by AUREX Studio.",
+    "Maison Noir is a premium café experience where exceptional coffee, timeless interiors, and refined hospitality come together.",
+
+  keywords: [
+    "Luxury Café",
+    "Premium Coffee",
+    "Maison Noir",
+    "Coffee Shop",
+    "Luxury Interior",
+    "Specialty Coffee",
+    "AUREX Studio",
+  ],
+
+  authors: [{ name: "AUREX Studio" }],
+  creator: "AUREX Studio",
+  publisher: "AUREX Studio",
 
   icons: {
     icon: "/icons/favicon.png",
-    shortcut: "/icons/favicon.png",
     apple: "/icons/favicon.png",
   },
 };
